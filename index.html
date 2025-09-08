@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio of Kuan-Hsin (Vern) Huang – Computing student at NUS with a passion for web, AI, and edtech.">
+  <meta property="og:title" content="Kuan-Hsin Huang Portfolio">
+  <meta property="og:image" content="KuanHsin.jpg">
+  <title>Kuan-Hsin (Vern) Huang</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">KH.Huang</div>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav-menu">
+        <a href="#education" class="navlink active">Education</a>
+        <a href="#professional" class="navlink">Experience</a>
+        <a href="#project" class="navlink">Projects</a>
+        <a href="#contact" class="navlink">Contact</a>
+        <a href="HuangKuanHsin-CV.pdf" class="btn-cv" download>Download CV</a>
+        <button id="theme-toggle" class="theme-btn">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-left">
+        <p class="intro">Hi! I Am</p>
+        <h1 class="name">Kuan-Hsin<span>(Vern)</span> Huang</h1>
+        <p class="desc">
+          I’m a Computing student at NUS with 2+ years of hands-on experience in edtech.
+          Building language learning platforms taught me how thoughtful design and intuitive
+          interactions can shape meaningful digital experiences — and that’s what I’m passionate about creating.
+        </p>
+      </div>
+      <div class="hero-right">
+        <div class="photo-frame">
+        <div class="photo-inner">
+          <div class="photo-front">
+            <img src="KuanHsin.jpg" alt="Kuan-Hsin (Vern) Huang">
+          </div>
+          <div class="photo-back">
+            <div class="contact-back">
+              <h2>Personal Info</h2>
+              <p><i class="fas fa-envelope"></i> hkuanhsin@gmail.com</p>
+              <p><i class="fas fa-phone"></i> (+65) 9432-5414</p>
+              <p><i class="fab fa-weixin"></i> verna__a</p>
+            </div>
+          </div>
+        </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="edu-item">
+        <div class="edu-header">
+          <h3>National University of Singapore (NUS), Singapore</h3>
+          <span class="edu-date">Aug 2025 – Dec 2026(Expected)</span>
+        </div>
+        <p class="edu-sub">MSc Computing</p>
+        <p>Courses: Software Development Fundamentals, Artificial Intelligence, Database Design and Programming, Enterprise Systems Architecture Fundamentals, etc.</p>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-header">
+          <h3>National Chengchi University(NCCU), Taipei, Taiwan</h3>
+          <span class="edu-date">Sep 2021 – Jun 2025</span>
+        </div>
+        <p class="edu-sub">BSc in Science - Risk Management and Insurance · Cumulative GPA: 4.08/4.3 · Dean’s List*1</p>
+        <p>Relevant Courses: Computer Programming, Introduction to Computer Science, Data Structures and Algorithms, Machine Learning and AI: Case Implementation, Data Analysis and Programming, Calculus, Statistics</p>
+      </div>
+  </section>
+
+  <section id="professional" class="section">
+  <div class="container">
+    <h2>Professional Experience</h2>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Contemporary Education and Technology Inc., CA, USA (Remote)</h3>
+        <span class="exp-date">Jun 2023 – Present</span>
+      </div>
+
+      <h4 class="exp-role">Frontend Web Developer Intern</h4>
+      <ul>
+        <li>Designed and implemented the multilingual “Kickstart” modules from scratch, transforming Figma mockups into responsive HTML/CSS pages, managed version control via Git, deployed the project to production environment. </li>
+        <li>Refined responsive Login, Register, Forgot Password, and Reset Password pages using HTML, CSS, and Vue.js. Ensured cross-device compatibility with Responsive Web Design (RWD) principles.</li>
+        <li class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Java Script(Vue.js)</span>
+            <span>Git</span>
+            <span>Figma</span>
+          </li>
+      </ul>
+
+      <h4 class="exp-role">Executive Assistant</h4>
+      <ul>
+        <li>Conducted website functionality testing in collaboration with engineers, contributing to a 10% improvement in development efficiency.</li>
+        <li>Conducted data analysis based on the Spanish-language learning pilot and developed a case study to evaluate user engagement and learning outcomes.</li>
+        <li>Demonstrated strong team coordination and communication skills, facilitating weekly technical meetings with engineers to align on project progress and future work plans</li>
+        <li class="tech-stack">
+            <span>End-to-end Testing</span>
+            <span>International Team Coordination</span>
+            <span>Python</span>            
+            <span>Canva</span>
+          </li>
+      </ul>
+    </div>
+</section>
+
+  <section id="project" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+    <div class="project-grid">
+      <!-- Card  -->
+      <div class="project-card">
+        <div class="card-front" style="background-image: url('tiktok.jpg');">
+          <div class="card-header">
+            <i class="fas fa-video"></i>
+            <h3>Tik Tok Hackathon</h3>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <p>Developed a full-stack creator monetization platform supporting tiered memberships, exclusive content access, and real-time analytics. Key features included payout smoothing, engagement-based scoring, and access control to enhance transparency, reduce income volatility, and mitigate money laundering risks.</p>
+              <ul class="pj-tech-stack">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>Git</li>
+                <li>Rest API</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/Ray-KJ/On-the-clock" class="btn-project" target="_blank">GitHub</a>
+                <a href="https://www.youtube.com/watch?v=mByKDlnbzxI" class="btn-project" target="_blank">Demo</a> 
+                <a href="https://devpost.com/software/tierflow?ref_content=user-portfolio&ref_feature=in_progress" class="btn-project" target="_blank">Devpost</a>       
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Card  -->
+       <div class="project-card">
+         <div class="card-front" style="background-image: url('ecommerce.png');">
+           <div class="card-header">
+             <i class="fas fa-shopping-cart"></i>
+             <h3>E-commerce Website</h3>
+           </div>
+           <div class="overlay">
+             <div class="overlay-content">
+               <p>Implemented a multi-page ecommerce site with React and React Router, including product listing, cart, order summary, and checkout pages. Managed cart and order state within React components, applying core concepts like useState, useEffect, and component-based architecture. Integrated with backend APIs using Axios for data fetching and state updates across components.</p>
+               <ul class="pj-tech-stack">
+                 <li>React</li>
+                 <li>TypeScript</li>
+                 <li>Git</li>
+                 <li>HTML5</li>
+                 <li>CSS3</li>
+                 <li>Rest API</li>
+               </ul>
+               <div class="project-links">
+                 <a href="https://github.com/vern-h/E-commerce-website" class="btn-project" target="_blank">GitHub</a>
+                 <a href="ecommerce.mp4" class="btn-project" target="_blank">Demo</a>       
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+      
+      <!-- Card  -->
+      <div class="project-card">
+  <div class="card-front" style="background-image: url('medium.jpg');">
+    <div class="card-header">
+      <i class="fas fa-pen-fancy"></i>
+      <h3>Medium-Clone</h3>
+    </div>
+    <div class="overlay">
+      <div class="overlay-content">
+        <p>Built a full-stack blogging platform inspired by Medium, featuring authentication, post creation, responsive layout, and detailed post view. Integrated JWT for login and used RESTful APIs for data interaction.</p>
+        <ul class="pj-tech-stack">
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>Express.js</li>
+          <li>Node.js</li>
+          <li>JWT Auth</li>
+          <li>Tailwind CSS</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/vern-h/medium-clone" class="btn-project" target="_blank">GitHub</a>
+          <a href="Medium-clone-demo.mp4" class="btn-project" target="_blank">Demo</a>        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Card  --> 
+      <div class="project-card">
+        <div class="card-front" style="background-image: url('portfolio-cover.jpg');">
+          <div class="card-header">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Personal Website</h3>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <p>Designed and developed a responsive portfolio website to showcase professional experience, resume, and projects. Built from scratch with a focus on clean UI, mobile-first layout, and accessibility.</p>
+              <ul class="pj-tech-stack">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Flexbox & Grid</li>
+                <li>RWD</li>
+                <li>Git</li>
+                <li>GitHub Pages</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/portfolio" class="btn-project" target="_blank">GitHub</a>
+                <a href="personal-website-demo.mp4" class="btn-project" target="_blank">Demo</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+      <!-- Card  -->
+      <div class="project-card">
+        <div class="card-front" style="background-image: url('News.jpg');">
+          <div class="card-header">
+            <i class="fas fa-newspaper"></i>
+            <h3>News Classifier</h3>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <p>Built a news headline classification model using SVM, Random Forest, and BERT with interpretability visualizations.</p>
+              <ul class="pj-tech-stack">
+                <li>Python</li>
+                <li>NewsAPI</li>
+                <li>HuggingFace Transformers</li>
+                <li>KaggleHub</li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card  -->
+      <div class="project-card">
+        <div class="card-front" style="background-image: url('TravelBot.jpg');">
+          <div class="card-header">
+            <i class="fas fa-robot"></i>
+            <h3>Discord Travel Bot</h3>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <p>Developed a Discord bot integrating multiple APIs for travel reminders and restaurant recommendations.</p>
+              <ul class="pj-tech-stack">
+                <li>Python</li>
+                <li>API Integration</li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card  -->
+      <div class="project-card">
+        <div class="card-front" style="background-image: url('Heart.jpg');">
+          <div class="card-header">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Heart Disease</h3>
+          </div>
+          <div class="overlay">
+            <div class="overlay-content">
+              <p>Built a predictive model using Kaggle’s heart disease dataset for life insurance applications; conducted EDA, data preprocessing, feature engineering, supervised learning, and clustering to support risk profiling and underwriting automation.</p>
+              <ul class="pj-tech-stack">
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Scikit-learn</li>
+                <li>Matplotlib</li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact-icons">
+        <a href="mailto:verna20020427@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/kuan-hsin-huang-158397276" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/vern__a/?next=%2F" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/huang.guan.xin.62223" target="_blank" aria-label="FaceBook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+</div>
+  </section>
+
+  <footer>
+    <p>© 2025 Kuan-Hsin (Vern) Huang</p>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.nav-menu');
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    if (localStorage.getItem('theme') === 'dark') {
+      body.classList.add('dark-mode');
+    }
+
+    toggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    const mode = body.classList.contains('dark-mode') ? 'dark' : 'light';
+
+    // Animate toggle button
+    toggle.classList.add('animate');
+    setTimeout(() => toggle.classList.remove('animate'), 180);
+
+    // Emoji switch
+    toggle.textContent = mode === 'dark' ? '☀️' : '🌙';
+    localStorage.setItem('theme', mode);
+    });
+  });
+  </script>
+
+</body>
+</html>
