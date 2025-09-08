@@ -2,9 +2,7 @@
 
 A clean, responsive, and mobile-first personal portfolio website built from scratch using HTML, CSS, and JavaScript. Designed to showcase my resume, projects, and contact information in a visually accessible and interactive way.
 
-
 ---
-
 
 ## Features
 
@@ -14,9 +12,7 @@ A clean, responsive, and mobile-first personal portfolio website built from scra
 - Semantic HTML structure optimized for accessibility and SEO
 - Fully responsive layout using Flexbox and CSS Grid
 
-
 ---
-
 
 ## How I Used AI
 
@@ -24,28 +20,19 @@ This project was designed with a clear visual and structural goal in mind before
 
 The AI-generated code served as a foundation, which I then refined, refactored, and customized to match my design system, ensure responsiveness, and enhance accessibility. This workflow demonstrates my ability to **integrate AI effectively**, not as a shortcut, but as a **creative and strategic partner** in the frontend development process.
 
-
 ---
 
+## Tech Stack
 
-##  Tech Stack
-
-| Category       | Technologies                        |
-|----------------|-------------------------------------|
-| Markup         | HTML5 (semantic)                    |
-| Styling        | CSS3, Flexbox, Grid, Transitions    |
-| Interactivity  | Vanilla JavaScript (ES6)            |
-| Version Control| Git + GitHub                        |
-| Deployment     | GitHub Pages                        |
-
+| Category        | Technologies                     |
+| --------------- | -------------------------------- |
+| Markup          | HTML5 (semantic)                 |
+| Styling         | CSS3, Flexbox, Grid, Transitions |
+| Interactivity   | Vanilla JavaScript (ES6)         |
+| Version Control | Git + GitHub                     |
+| Deployment      | GitHub Pages                     |
 
 ---
-
-
-## Deployment
-
-This site is live at:  
-[https://vern-h.github.io/portfolio](https://vern-h.github.io/portfolio)
 
 To deploy:
 
@@ -57,11 +44,9 @@ open index.html
 
 ---
 
-
 ## Contact
 
 Feel free to connect with me:
 
-- Email: [verna20020427@gmail.com](mailto:verna20020427@gmail.com)  
+- Email: [verna20020427@gmail.com](mailto:verna20020427@gmail.com)
 - LinkedIn: [Kuan-Hsin Huang](https://www.linkedin.com/in/kuan-hsin-huang-158397276)
-
