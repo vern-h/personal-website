@@ -34,10 +34,15 @@ The AI-generated code served as a foundation, which I then refined, refactored, 
 
 ---
 
+## Deployment
+
+This site is live at:  
+https://vern-h.github.io/personal-website/
+
 To deploy:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/vern-h/personal-website.git
 cd portfolio
 open index.html
 ```
